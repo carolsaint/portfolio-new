@@ -1,21 +1,21 @@
 @font-face {
     font-family: citrica;
-    src: url(/citrica.ttf);
+    src: url(./citrica.ttf);
 }
 
 @font-face {
     font-family: bubbler;
-    src: url(/BubblerOne-Regular.ttf);
+    src: url(./BubblerOne-Regular.ttf);
 }
 
 @font-face {
     font-family: south;
-    src: url(/Silver\ South\ Script.ttf);
+    src: url(./Silver\ South\ Script.ttf);
 }
 
 @font-face {
     font-family: barlow;
-    src: url(/barlow-condensed.regular.ttf);
+    src: url(./barlow-condensed.regular.ttf);
 }
 
 body{
@@ -34,7 +34,7 @@ body{
 
 h1{
     margin-top: 150px;
-    font-family: south;
+    font-family: south, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 76px;
@@ -43,7 +43,7 @@ h1{
 .titulo{
     width: 25%;
     display: flex;
-    font-family: south;
+    font-family: south, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px; 
     justify-content: flex-start;
     align-items: flex-start;
