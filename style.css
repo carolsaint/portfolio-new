@@ -1,0 +1,132 @@
+@font-face {
+    font-family: citrica;
+    src: url(/citrica.ttf);
+}
+
+@font-face {
+    font-family: bubbler;
+    src: url(/BubblerOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: south;
+    src: url(/Silver\ South\ Script.ttf);
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(/barlow-condensed.regular.ttf);
+}
+
+body{
+    /* display: flex; */
+}
+
+.name{
+    width: 100%;
+    height: 250px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline
+}
+
+h1{
+    margin-top: 150px;
+    font-family: south;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 76px;
+}
+
+.titulo{
+    width: 25%;
+    display: flex;
+    font-family: south;
+    font-size: 50px; 
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+li{
+    font-family: barlow;
+}
+
+.aptidoes-container{
+    height:200px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #CCCCCC;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.lista-aptidoes{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+.icons{
+    margin-top: 10px;
+    align-items: flex-start;
+    list-style: none;
+    display: flex;
+    width: 20%;
+}
+
+.icon .aptidoes-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.formacao-container{
+    background-color: #A5A5A5;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.lista-formacao{
+    font-size: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.experiencia-container{
+    background-color: #7F7F7F;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.lista-experiencia{
+    font-size: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1:hover{
+    font-size: 86px;
+    color: rgb(21, 155, 155);
+}
+.icon .aptidoes-icon:hover{
+    background-color: rgb(21, 155, 155);
+}
+
+.titulo:hover{
+    font-size: 65px;
+}
